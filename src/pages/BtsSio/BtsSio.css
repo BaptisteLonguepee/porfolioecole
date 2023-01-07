@@ -1,0 +1,14 @@
+.page {
+    margin: 2%;
+}
+
+.lesoptions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.option {
+    width: 95%;
+}
