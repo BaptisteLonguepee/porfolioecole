@@ -1,6 +1,9 @@
 import "./VielleTechno.css";
-
+import {VeilleData} from './test';
+import {useParams} from "react-router-dom";
+import VeilleItem from "./VeilleItem";
 function VielleTechno() {
+    const { id } = useParams();
 
     return (
         <>
@@ -9,7 +12,7 @@ function VielleTechno() {
                 <p>La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.</p>
 
                 <h1>Sujet de la veille technologique.</h1>
-                <p>Le sujet de ma veille technologique se portera sur JavaScript</p>
+                <p>Le sujet de ma veille technologique se portera sur Laravel</p>
 
                 <h1>Comment sont traiter les informations ?</h1>
                 <p>Pour pouvoir traiter les infomations j'ai utiliser une application web</p>
@@ -28,8 +31,19 @@ function VielleTechno() {
                     </div>
                 </div>
 
-                <div className="flex">
-
+                <div className="container mx-auto px-4 py-6">
+                    <h2 className="text-3xl font-bold mb-6">Veille</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {VeilleData.map((veille) => (
+                            <VeilleItem
+                                key={veille.id}
+                                titre={veille.titre}
+                                date={veille.date}
+                                descriptionLongue={veille.descriptionLongue}
+                                lien={veille.lien}
+                            />
+                        ))}
+                    </div>
                 </div>
             </div>
         </>
