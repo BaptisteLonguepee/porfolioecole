@@ -16,13 +16,13 @@ function VielleTechno() {
                 <div className="flex items-center">
                     <div className="mt-16">
                         <h1 className="text-center">Feedly</h1>
-                        <img className="ml-auto mr-auto w-64" src="https://upload.wikimedia.org/wikipedia/commons/5/56/Feedly-logo.png"></img>
+                        <img className="ml-auto mr-auto w-64" src="https://upload.wikimedia.org/wikipedia/commons/5/56/Feedly-logo.png" alt="logo"></img>
                         <p className="text-center">Feedly est un agrégateur de flux RSS et Atom en ligne Freemium. Il est accessible par un navigateur internet, et est également disponible sous forme d’application pour smartphone.
                         J’ai choisi Feedly car c’est un logiciel simple d’utilisation avec plusieurs canaux de suivi malgré la version gratuite.</p>
                     </div>
                     <div className="mt-16">
                         <h1 className="text-center">RSS.APP</h1>
-                        <img className="ml-auto mr-auto w-60" src="https://avatars.githubusercontent.com/u/46205708?s=200&v=4"></img>
+                        <img className="ml-auto mr-auto w-60" src="https://avatars.githubusercontent.com/u/46205708?s=200&v=4" alt="logo"></img>
                         <p className="text-center">RSS.APP est aussi un agrégateur de flux RSS et Atom en ligne Freemium. Il est accessible par un navigateur internet.
                         J’ai choisi RSS.APP car c’est un site web qui est trés simple d’utilisation.</p>
                     </div>

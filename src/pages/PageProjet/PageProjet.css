@@ -32,6 +32,7 @@
 }
 
 .title {
+    color: black;
     font-size: var(--f-u10);
     font-weight: 900;
     text-transform: uppercase;
