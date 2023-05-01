@@ -10,7 +10,7 @@ export const ProjetsData = [
         client : "",
         img : "http://baptistelonguepee.fr/images/sirac.png",
         descriptionCourte : "Site de réservation en ligne pour un restaurant",
-        descriptionLongue : "En cour de première année, nous avons dû réaliser un projet de groupe, le but de celui-ci était de créer un site de restaurant, avec une connexion, gestion des repas avec une page d’administration, envoie d’e-mail pour la confirmation du rendez-vous",
+        descriptionLongue : "En cours de première année, nous avons dû réaliser un projet de groupe, le but de celui-ci était de créer un site de restaurant, avec une connexion, gestion des repas avec une page d’administration, envoie d’e-mail pour la confirmation du rendez-vous",
         tags : [
             {libelle : "Laravel"},
             {libelle : "Dev"},
@@ -28,7 +28,7 @@ export const ProjetsData = [
         client : "",
         img : "http://baptistelonguepee.fr/images/img.png",
         descriptionCourte : "Site de réservation en ligne pour une compagnie maritime",
-        descriptionLongue : "En cour de première année, nous avons dû réaliser un projet de groupe, le but de celui-ci était de créer un site de restaurant, avec une connexion, gestion des repas avec une page d’administration, envoie d’e-mail pour la confirmation du rendez-vous",
+        descriptionLongue : "En cours de deuxième année, nous avons dû réaliser un projet de groupe, le but de celui-ci était de créer un site de réservation de traversées, avec une connexion, envoie d’e-mail pour la confirmation du rendez-vous",
         tags : [
             {libelle : "Laravel"},
             {libelle : "Dev"},

@@ -10,7 +10,7 @@ function Projects() {
     const navigate = useNavigate();
     return (
         <div className="wrapper">
-            <h1>Projet à l'ecole</h1>
+            <h1>Projet à l'école</h1>
             <div className="grid">
                 {
                     ProjetsData && ProjetsData.map(record => {

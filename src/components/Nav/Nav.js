@@ -6,7 +6,7 @@ function Nav() {
                 <div className="monogram">BL</div>
             </a>
             <a className='link' href='/btssio'>BTS SIO</a>
-            <a className="link" href="/projects">TOUS LES PROJECTS</a>
+            <a className="link" href="/projects">TOUS LES PROJETS</a>
             <a className="link" href="/veilletechno">VEILLE TECHNOLOGIQUE</a>
             <a className="link" href="/epreuveE4">Epreuve E4</a>
             <div className="socials">

@@ -14,7 +14,7 @@ function VielleTechno() {
                 <h1>Sujet de la veille technologique.</h1>
                 <p>Le sujet de ma veille technologique se portera sur Laravel</p>
 
-                <h1>Comment sont traiter les informations ?</h1>
+                <h1>Comment sont traité les informations ?</h1>
                 <p>Pour pouvoir traiter les infomations j'ai utiliser une application web</p>
                 <div className="flex items-center">
                     <div className="mt-16">
