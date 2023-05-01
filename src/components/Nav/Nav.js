@@ -8,8 +8,7 @@ function Nav() {
             <a className='link' href='/btssio'>BTS SIO</a>
             <a className="link" href="/projects">TOUS LES PROJECTS</a>
             <a className="link" href="/veilletechno">VEILLE TECHNOLOGIQUE</a>
-            <a className="link" href="/epreuveE4">EpreuveE4</a>
-            <a className="link" href="/about"> À PROPOS DE MOI</a>
+            <a className="link" href="/epreuveE4">Epreuve E4</a>
             <div className="socials">
                 <a className="social" href="https://github.com/BaptisteLonguepee">
                     <svg className="socialIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
