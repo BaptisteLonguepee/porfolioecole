@@ -1,7 +1,7 @@
 import jalon1 from '../src/PDF/SIRAC/SIRAC-Jalon1.pdf';
 import jalon2 from '../src/PDF/SIRAC/SIRAC-Jalon2.pdf';
 
-import marieTeamJalon1 from '../src/PDF/MarieTeam/marieteamjalon1_merged.pdf';
+import marieTeamJalon1 from '../src/PDF/MarieTeam/marieteamjalon1_merged-3.pdf';
 
 export const ProjetsData = [
     {
